@@ -4,7 +4,6 @@ import MyAccount from "../myAccount";
 import MyOrder from "../myOrder";
 import MyOrders from "../myOrders";
 import NotFound from "../notFound";
-import SignIn from "../signin";
 import "../../App.css";
 import Navbar from "../../components/navbar";
 import { ShoppingCartPrivider } from "../../context";
@@ -59,10 +58,6 @@ const AppRoutes = () => {
     {
       path: "/my-orders/:id",
       element: <MyOrder />,
-    },
-    {
-      path: "/sign-in",
-      element: <SignIn />,
     },
     {
       path: "*",
